@@ -104,13 +104,65 @@
 .headers off
 
 -- Drop existing tables, so you'll start fresh each time this script is run.
+DROP TABLE IF EXISTS movies;
+DROP TABLE IF EXISTS talent;
 -- TODO!
 
 -- Create new tables, according to your domain model
+CREATE TABLE movies (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  movie_name TEXT,
+  year_released TEXT,
+  age_rating TEXT,
+  studio TEXT
+);
+
+CREATE TABLE talent (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  movie_name TEXT,
+  year_released TEXT,
+  age_rating TEXT,
+  studio TEXT
+);
 -- TODO!
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
+INSERT INTO movies (
+    movie_name,
+    year_released,
+    age_rating,
+    studio
+) VALUES (
+    "Batman Begins",
+    "2005",
+    "PG-13",
+    "Warner Bros."
+)
+
+INSERT INTO Movies (
+    movie_name,
+    year_released,
+    age_rating,
+    studio
+) VALUES (
+    "The Dark Knight",
+    "2008",
+    "PG-13",
+    "Warner Bros."
+)
+
+INSERT INTO Movies (
+    movie_name,
+    year_released,
+    age_rating,
+    studio
+) VALUES (
+    "The Dark Knight Rises",
+    "2012",
+    "PG-13",
+    "Warner Bros."
+)
 -- TODO!
 
 -- Prints a header for the movies output
