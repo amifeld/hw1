@@ -119,10 +119,9 @@ CREATE TABLE movies (
 
 CREATE TABLE talent (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  movie_name TEXT,
-  year_released TEXT,
-  age_rating TEXT,
-  studio TEXT
+  movie TEXT,
+  actor_name TEXT,
+  character_played TEXT,
 );
 -- TODO!
 
