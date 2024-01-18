@@ -112,21 +112,22 @@ DROP TABLE IF EXISTS talent;
 CREATE TABLE movies (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   movie_name TEXT,
-  year_released TEXT,
+  year_released INTEGER,
   age_rating TEXT,
   studio TEXT
 );
 
 CREATE TABLE talent (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  movie TEXT,
+  movie_id INTEGER,
   actor_name TEXT,
-  character_played TEXT,
+  character_played TEXT
 );
 -- TODO!
 
 -- Insert data into your database that reflects the sample data shown above
 -- Use hard-coded foreign key IDs when necessary
+
 INSERT INTO movies (
     movie_name,
     year_released,
@@ -137,9 +138,9 @@ INSERT INTO movies (
     "2005",
     "PG-13",
     "Warner Bros."
-)
+);
 
-INSERT INTO Movies (
+INSERT INTO movies (
     movie_name,
     year_released,
     age_rating,
@@ -149,9 +150,9 @@ INSERT INTO Movies (
     "2008",
     "PG-13",
     "Warner Bros."
-)
+);
 
-INSERT INTO Movies (
+INSERT INTO movies (
     movie_name,
     year_released,
     age_rating,
@@ -161,7 +162,29 @@ INSERT INTO Movies (
     "2012",
     "PG-13",
     "Warner Bros."
-)
+);
+
+INSERT INTO talent (
+    movie_id,
+    actor_name,
+    character_played
+) VALUES (
+    "1",
+    "Christian Bale",
+    "Bruce Wayne"
+);
+
+INSERT INTO talent (
+    movie_id,
+    actor_name,
+    character_played
+) VALUES (
+    "1",
+    "Christian Bale",
+    "Bruce Wayne"
+);
+
+
 -- TODO!
 
 -- Prints a header for the movies output
