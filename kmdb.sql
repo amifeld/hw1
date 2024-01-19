@@ -309,7 +309,7 @@ INSERT INTO characters (
     "Bruce Wayne",
     2,
     1
-);
+), ;
 
 
 INSERT INTO characters (
