@@ -153,9 +153,9 @@ INSERT INTO movies (
     studio_id
 ) VALUES (
     "Batman Begins",
-    "2005",
+    2005,
     "PG-13",
-    "1"
+    1
 );
 
 INSERT INTO movies (
@@ -165,9 +165,9 @@ INSERT INTO movies (
     studio_id
 ) VALUES (
     "The Dark Knight",
-    "2008",
+    2008,
     "PG-13",
-    "1"
+    1
 );
 
 INSERT INTO movies (
@@ -177,9 +177,9 @@ INSERT INTO movies (
     studio_id
 ) VALUES (
     "The Dark Knight Rises",
-    "2012",
+    2012,
     "PG-13",
-    "1"
+    1
 );
 
 INSERT INTO talent (
@@ -254,8 +254,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Bruce Wayne",
-    "1",
-    "1"
+    1,
+    1
 );
 
 INSERT INTO characters (
@@ -264,8 +264,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Alfred",
-    "1",
-    "2"
+    1,
+    2
 );
 
 INSERT INTO characters (
@@ -274,8 +274,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Ra's Al Ghul",
-    "1",
-    "3"
+    1,
+    3
 );
 
 
@@ -285,8 +285,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Rachel Dawes",
-    "1",
-    "4"
+    1,
+    4
 );
 
 
@@ -296,8 +296,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Commissioner Gordon",
-    "1",
-    "5"
+    1,
+    5
 );
 
 
@@ -307,8 +307,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Bruce Wayne",
-    "2",
-    "1"
+    2,
+    1
 );
 
 
@@ -318,8 +318,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Joker",
-    "2",
-    "6"
+    2,
+    6
 );
 
 INSERT INTO characters (
@@ -328,8 +328,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Harvey Dent",
-    "2",
-    "7"
+    2,
+    7
 );
 
 INSERT INTO characters (
@@ -338,8 +338,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Alfred",
-    "2",
-    "2"
+    2,
+    2
 );
 
 INSERT INTO characters (
@@ -348,8 +348,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Rachel Dawes",
-    "2",
-    "8"
+    2,
+    8
 );
 
 INSERT INTO characters (
@@ -358,8 +358,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Bruce Wayne",
-    "3",
-    "1"
+    3,
+    1
 );
 
 INSERT INTO characters (
@@ -368,8 +368,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Commissiones Gordon",
-    "3",
-    "5"
+    3,
+    5
 );
 
 INSERT INTO characters (
@@ -378,8 +378,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Bane",
-    "3",
-    "9"
+    3,
+    9
 );
 
 INSERT INTO characters (
@@ -388,8 +388,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "John Blake",
-    "3",
-    "10"
+    3,
+    10
 );
 
 INSERT INTO characters (
@@ -398,8 +398,8 @@ INSERT INTO characters (
     talent_id
 ) VALUES (
     "Selina Kyle",
-    "3",
-    "11"
+    3,
+    11
 );
 -- TODO!
 
