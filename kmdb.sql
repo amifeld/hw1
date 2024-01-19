@@ -151,256 +151,46 @@ INSERT INTO movies (
     year_released,
     age_rating,
     studio_id
-) VALUES (
-    "Batman Begins",
-    2005,
-    "PG-13",
-    1
-);
-
-INSERT INTO movies (
-    movie_name,
-    year_released,
-    age_rating,
-    studio_id
-) VALUES (
-    "The Dark Knight",
-    2008,
-    "PG-13",
-    1
-);
-
-INSERT INTO movies (
-    movie_name,
-    year_released,
-    age_rating,
-    studio_id
-) VALUES (
-    "The Dark Knight Rises",
-    2012,
-    "PG-13",
-    1
-);
+) VALUES 
+("Batman Begins", 2005, "PG-13", 1),
+("The Dark Knight", 2008, "PG-13", 1),
+("The Dark Knight Rises", 2012, "PG-13", 1);
 
 INSERT INTO talent (
     actor_name
-) VALUES (
-    "Christian Bale"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Michael Cain"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Liam Neeson"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Katie Holmes"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Gary Oldman"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Heath Ledger"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Aaron Eckhart"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Maggie Gyllenhaal"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Tom Hardy"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Joseph Gordon-Levitt"
-);
-
-INSERT INTO talent (
-    actor_name
-) VALUES (
-    "Anne Hathaway"
-);
+) VALUES 
+("Christian Bale"),
+("Michael Cain"),
+("Liam Neeson"),
+("Katie Holmes"),
+("Gary Oldman"),
+("Heath Ledger"),
+("Aaron Eckhart"),
+("Maggie Gyllenhaal"),
+("Tom Hardy"),
+("Joseph Gordon-Levitt"),
+("Anne Hathaway");
 
 INSERT INTO characters (
     character_name,
     movie_id,
     talent_id
-) VALUES (
-    "Bruce Wayne",
-    1,
-    1
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Alfred",
-    1,
-    2
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Ra's Al Ghul",
-    1,
-    3
-);
-
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Rachel Dawes",
-    1,
-    4
-);
-
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Commissioner Gordon",
-    1,
-    5
-);
-
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Bruce Wayne",
-    2,
-    1
-), ;
-
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Joker",
-    2,
-    6
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Harvey Dent",
-    2,
-    7
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Alfred",
-    2,
-    2
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Rachel Dawes",
-    2,
-    8
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Bruce Wayne",
-    3,
-    1
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Commissiones Gordon",
-    3,
-    5
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Bane",
-    3,
-    9
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "John Blake",
-    3,
-    10
-);
-
-INSERT INTO characters (
-    character_name,
-    movie_id,
-    talent_id
-) VALUES (
-    "Selina Kyle",
-    3,
-    11
-);
+) VALUES 
+("Bruce Wayne", 1, 1),
+("Alfred", 1, 2),
+("Ra's Al Ghul", 1, 3),
+("Rachel Dawes", 1, 4),
+("Commissioner Gordon", 1, 5),
+("Bruce Wayne", 2, 1),
+("Joker", 2, 6),
+("Harvey Dent", 2, 7),
+("Alfred", 2, 2),
+("Rachel Dawes", 2, 8),
+("Bruce Wayne", 3, 1),
+("Commissiones Gordon", 3, 5),
+("Bane", 3, 9),
+("John Blake", 3, 10),
+("Selina Kyle", 3, 11);
 -- TODO!
 
 -- Prints a header for the movies output
